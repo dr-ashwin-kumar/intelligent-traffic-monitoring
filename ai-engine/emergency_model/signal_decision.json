@@ -1,0 +1,17 @@
+{
+    "recommended_road": "Road A",
+    "traffic_score": 1.7,
+    "emergency_score": 5,
+    "priority_score": 6.7,
+    "traffic_level": "LOW",
+    "emergency_vehicles": {
+        "Police": 1,
+        "ambulance": 0,
+        "firetruck": 1
+    },
+    "confirmed_emergencies": [
+        "firetruck"
+    ],
+    "recommended_green_time": 60,
+    "reason": "Confirmed emergency vehicle: firetruck"
+}

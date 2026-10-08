@@ -1,0 +1,26 @@
+{
+    "road": "Road A",
+    "video": "../videos/roadA.mp4",
+    "traffic": {
+        "average_traffic_score": 1.7,
+        "maximum_traffic_score": 2,
+        "traffic_level": "LOW",
+        "maximum_vehicle_count": 2
+    },
+    "emergency_vehicles": {
+        "maximum_counts": {
+            "Police": 1,
+            "ambulance": 0,
+            "firetruck": 1
+        },
+        "total_detections": {
+            "Police": 214,
+            "ambulance": 0,
+            "firetruck": 163
+        },
+        "confirmed_emergencies": [
+            "firetruck"
+        ],
+        "confirmation_frames": 3
+    }
+}

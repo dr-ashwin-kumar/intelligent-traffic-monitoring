@@ -1,0 +1,73 @@
+{
+    "recommended_road": "Road A",
+    "traffic_score": 7.9,
+    "traffic_level": "LOW",
+    "total_vehicles": 16,
+    "cars": 9,
+    "motorcycles": 0,
+    "buses": 2,
+    "trucks": 5,
+    "emergency_score": 10,
+    "priority_score": 17.9,
+    "emergency_vehicles": {
+        "Police": 1,
+        "ambulance": 1,
+        "firetruck": 1
+    },
+    "confirmed_emergencies": [
+        "ambulance",
+        "firetruck"
+    ],
+    "recommended_green_time": 60,
+    "reason": "Confirmed emergency vehicle: ambulance, firetruck",
+    "selection_mode": "Emergency priority",
+    "road_priorities": {
+        "Road A": 17.9,
+        "Road B": 20.6
+    },
+    "all_roads": {
+        "1791194799582_ambulance": {
+            "road": "Road A",
+            "traffic_score": 7.9,
+            "traffic_level": "LOW",
+            "total_vehicles": 16,
+            "cars": 9,
+            "motorcycles": 0,
+            "buses": 2,
+            "trucks": 5,
+            "emergency_score": 10,
+            "priority_score": 17.9,
+            "emergency_vehicles": {
+                "Police": 1,
+                "ambulance": 1,
+                "firetruck": 1
+            },
+            "confirmed_emergencies": [
+                "ambulance",
+                "firetruck"
+            ],
+            "recommended_green_time": 60,
+            "reason": "Confirmed emergency vehicle: ambulance, firetruck"
+        },
+        "1791194799641_roadD": {
+            "road": "Road B",
+            "traffic_score": 20.6,
+            "traffic_level": "MEDIUM",
+            "total_vehicles": 32,
+            "cars": 24,
+            "motorcycles": 0,
+            "buses": 3,
+            "trucks": 5,
+            "emergency_score": 0,
+            "priority_score": 20.6,
+            "emergency_vehicles": {
+                "Police": 1,
+                "ambulance": 0,
+                "firetruck": 0
+            },
+            "confirmed_emergencies": [],
+            "recommended_green_time": 40,
+            "reason": "Traffic-based signal timing"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+node_modules/
+
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# AI model weights
+*.pt
+*.onnx
+*.weights
+
+# Uploaded/test videos
+uploads/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Generated output folders
+outputs/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Dataset archives
+*.zip

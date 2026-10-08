@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Police', 'ambulance', 'firetruck']
+
+roboflow:
+  workspace: detection-cars
+  project: ambulance-police-firetruck
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/detection-cars/ambulance-police-firetruck/dataset/4
